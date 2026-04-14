@@ -1,16 +1,65 @@
 # reddit-intel
 
-**Turn Reddit into a business intelligence feed — keyword in, formatted Excel out.**
+**Turn Reddit discussions into a structured intelligence report for competitor research and customer insight.**
 
-Drop a keyword. Get a spreadsheet where every row tells you what users actually think, what they want, who they're switching to, and what your team should do about it next week.
+Give it a keyword and it returns a bilingual Excel report with post collection, user intent, sentiment, competitors mentioned, use cases, comment highlights, and next-step action items.
 
 ---
 
 ## The problem this solves
 
-Your users are on Reddit talking about your product, your competitors, and the problems your industry hasn't solved yet. You just can't read 300 threads a week.
+There is a lot of useful product and market signal on Reddit. The hard part is not getting posts. The hard part is turning scattered discussions into something a product, growth, or research team can actually use.
 
-*reddit-intel* does the reading. Claude classifies intent, detects sentiment, extracts competitors mentioned, surfaces the workarounds people share in comment threads, and writes a one-line action item for every post — output as a color-coded Excel file you can drop directly into your next product review.
+- Too many threads to read manually
+- Too much noise to summarize cleanly
+- Most crawlers stop at raw data export
+- Generic AI summaries sound plausible, but rarely lead to concrete decisions
+
+*reddit-intel* is not just a Reddit scraper. It turns Reddit discussions into a **structured intelligence sheet** your team can review, filter, and act on.
+
+It helps you:
+
+- collect relevant posts and top comments
+- classify them with industry-aware frameworks
+- extract explicit competitor mentions and switching signals
+- generate Chinese summaries and concrete action items
+- export a report that fits directly into a real workflow, not just a JSON dump
+
+---
+
+## How this differs from a typical Reddit tool
+
+Most Reddit tools stop at:
+
+1. Fetch posts
+2. Export raw data
+
+*reddit-intel* adds the layer that actually creates business value:
+
+- not just data, but **readable and report-ready output**
+- not just sentiment, but **intent, competitors, use cases, and action items**
+- not just English raw text, but **bilingual output for Chinese-speaking teams**
+- not just analysis, but a clear answer to **what the team should do next**
+
+---
+
+## Example output
+
+![reddit-intel report preview](./assets/report-preview.svg)
+
+The preview above shows the shape of the final deliverable, not a raw export dump.
+
+What you get is closer to a working research artifact for a real team:
+
+- Sheet 1: structured post-level data for filtering, review, and follow-up analysis
+- Sheet 2: summary stats, sentiment split, category distribution, competitor mentions, and action recommendations
+
+Typical questions it helps answer:
+
+- What are users complaining about most often?
+- Which competitors are mentioned alongside the keyword?
+- Are people asking for help, venting, comparing tools, or switching away?
+- Which signals should product, growth, or brand teams act on next week?
 
 ---
 
