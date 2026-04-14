@@ -1,8 +1,8 @@
 # reddit-intel
 
-**Turn Reddit discussions into a structured intelligence report for competitor research and customer insight.**
+**Turn Reddit discussions into a bilingual Excel report for competitor research, customer insight, and market monitoring.**
 
-Give it a keyword and it returns a bilingual Excel report with post collection, user intent, sentiment, competitors mentioned, use cases, comment highlights, and next-step action items.
+Give it a keyword and it returns a report-ready bilingual Excel with post collection, user intent, sentiment, competitors mentioned, use cases, comment highlights, and next-step action items.
 
 ---
 
@@ -24,6 +24,19 @@ It helps you:
 - extract explicit competitor mentions and switching signals
 - generate Chinese summaries and concrete action items
 - export a report that fits directly into a real workflow, not just a JSON dump
+
+---
+
+## Who it's for
+
+This skill is a good fit if you want to:
+
+- run competitor research from real Reddit discussions
+- collect user pain points, requests, and switching signals
+- monitor a market or topic without reading hundreds of threads manually
+- turn English community discussion into a Chinese report your team can actually use
+
+It is less suited for full historical archives, large-scale monitoring infrastructure, or near-zero-noise datasets. It works best for **fast research, directional analysis, and internal reporting**.
 
 ---
 
